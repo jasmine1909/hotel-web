@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Static Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- Slick CSS files -->
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css" />
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="header-wrapper">
+        <div class="navbar-wrapper">
+          <nav class="navbar container">
+            <div class="brand-and-toggler container">
+              <a href="index.html" class="navbar-brand">HOTEL</a>
+              <button class="navbar-toggler" id="navbar-toggler">
+                <span><i class="fas fa-bars"></i>MENU</span>
+              </button>
+            </div>
+            <div class="navbar-collapse">
+              <ul class="navbar-nav container">
+                <li class="nav-item">
+                  <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#service" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#featured" class="nav-link">Featured</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#tour" class="nav-link">Tour</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#room" class="nav-link">Hotel</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="banner">
+          <div class="container">
+            <h1 class="banner-title"><span>Discover</span> amazing city</h1>
+            <p class="banner-text">
+              Find great places to stay, eat, shop or visit from local experts
+            </p>
+            <form class="banner-form">
+              <div class="form-element">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ex:food,service,hotel"
+                />
+              </div>
+              <div class="form-element">
+                <select name="places" id="" class="form-control">
+                  <option value="where">Where</option>
+                  <option value="USA">San Francisco USA</option>
+                  <option value="Germany">Berline Germany</option>
+                  <option value="UK">Lon Don United Kingdom</option>
+                  <option value="France">Paris France</option>
+                </select>
+              </div>
+              <div class="form-element">
+                <input type="submit" class="banner-btn" value="Search" />
+              </div>
+            </form>
+            <p class="banner-text">Or browse the highlight</p>
+            <div class="banner-btns">
+              <button type="button" class="banner-btn">
+                <span> <i class="fas fa-utensils"></i> </span>Restaurant
+              </button>
+              <button type="button" class="banner-btn">
+                <span> <i class="fas fa-hotel"></i> </span>Hotel
+              </button>
+              <button type="button" class="banner-btn">
+                <span> <i class="fas fa-marker-alt"></i> </span>Places
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--about-->
+    <section class="about py-4" id="about">
+      <div class="container">
+        <span class="title">About</span>
+        <h2 class="subtext"><span>About</span> Our Reputation</h2>
+        <div class="about-wrapper">
+          <div class="single-about">
+            <span>
+              <i class="fas fa-award"></i>
+            </span>
+            <h2 class="normal-title">Best Price Guarantee</h2>
+            <p class="normal-para">
+              Book online at Hotel.com or call the hotel property directly, and
+              we'll stand behind our rate with our Lowest Price Guarantee
+            </p>
+          </div>
+
+          <div class="single-about">
+            <span>
+              <i class="fas fa-heart"></i>
+            </span>
+            <h2 class="normal-title">Traveller Love Us</h2>
+            <p class="normal-para">
+              Book online at Hotel.com or call the hotel property directly, and
+              we'll stand behind our rate with our Lowest Price Guarantee
+            </p>
+          </div>
+
+          <div class="single-about">
+            <span>
+              <i class="fas fa-passport"></i>
+            </span>
+            <h2 class="normal-title">Best Travel Agent</h2>
+            <p class="normal-para">
+              Book online at Hotel.com or call the hotel property directly, and
+              we'll stand behind our rate with our Lowest Price Guarantee
+            </p>
+          </div>
+
+          <div class="single-about">
+            <span>
+              <i class="fas fa-cog"></i>
+            </span>
+            <h2 class="normal-title">Our Dedicated Support</h2>
+            <p class="normal-para">
+              Book online at Hotel.com or call the hotel property directly, and
+              we'll stand behind our rate with our Lowest Price Guarantee
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---service-->
+    <section class="services py-4" id="services">
+      <div class="container">
+        <span class="title">Services</span>
+        <h2 class="subtext"><span>Our </span> Best Services</h2>
+        <div class="services-wrapper">
+          <div class="services-item">
+            <div class="services-icons">
+              <span><i class="fas fa-utensils"></i></span>
+            </div>
+
+            <div class="services-content">
+              <h2>Food Services / Food Runner</h2>
+              <p>
+                Our locations offer banquet halls, ballrooms and reception halls
+                to fit the needs of your event. You will receive expert help
+                from a dedicated wedding planner who assists with details such
+                as lighting effects and unique venue layouts as well as room
+                blocks for your guests. We’re here from the very start of
+                planning to your honeymoon, providing luxury wedding night
+                accommodations.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-item">
+            <div class="services-icons">
+              <span><i class="fas fa-handshake"></i></span>
+            </div>
+
+            <div class="services-content">
+              <h2>Booking your event or meeting</h2>
+              <p>
+                Advance planning made easy. Save time, select a venue, view the
+                layout and learn about insider services.Our planners can help
+                with every detail. From casual meetings to conferences and
+                conventions to lavish weddings, we’ll help you select the
+                perfect venue for your budget and objectives.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-item">
+            <div class="services-icons">
+              <span><i class="fas fa-plane"></i></span>
+            </div>
+
+            <div class="services-content">
+              <h2>Holiday or Vacation</h2>
+              <p>
+                In addition to glamorous occasions, we offer high-quality
+                service and room blocks to accommodate guests so they too can
+                experience the luxury of the HOTEL life.Expect exquisite menu
+                options and a selection of award-winning fine wines to enhance
+                the experience
+              </p>
+            </div>
+          </div>
+
+          <div class="services-item">
+            <div class="services-icons">
+              <span><i class="fas fa-handshake"></i></span>
+            </div>
+
+            <div class="services-content">
+              <h2>Booking your event or meeting</h2>
+              <p>
+                Advance planning made easy. Save time, select a venue, view the
+                layout and learn about insider services.Our planners can help
+                with every detail. From casual meetings to conferences and
+                conventions to lavish weddings, we’ll help you select the
+                perfect venue for your budget and objectives.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-item">
+            <div class="services-icons">
+              <span><i class="fas fa-broom"></i></span>
+            </div>
+
+            <div class="services-content">
+              <h2>So Fresh, So Clean</h2>
+              <p>
+                We’ve enhanced our health and cleaning protocols to help ensure
+                that our meetings and events spaces continue to be safe,
+                welcoming spaces for everyone. We've been working double-time to
+                create new room layouts and catering options to adhere to local
+                and CDC ordinances — and also give you complete confidence in
+                our safety standards.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-item">
+            <div class="services-icons">
+              <span><i class="fas fa-swimming-pool"></i></span>
+            </div>
+
+            <div class="services-content">
+              <h2>Outdoor Events</h2>
+              <p>
+                From expansive suite balconies to stunning rooftop lounges, why
+                not take your program outdoors and enjoy a new way to connect to
+                your surroundings — and each other? Our hotels offer inspiring
+                and refreshingly unique al fresco spaces, and we’ve made it even
+                easier to discover these incredible venues with comprehensive
+                overviews of our hotel outdoor spaces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured py-4" id="featured">
+      <div class="container">
+        <span class="title">Fearured</span>
+        <h2 class="subtext"><span>Featured</span> Destination</h2>
+
+        <div class="gallery">
+          <div class="single-place">
+            <div class="single-place-img">
+              <img src="./images/place-1.jpg" alt="" />
+              <span class="display-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="single-place-info">
+              <p>Paris,France</p>
+              <p>4 Listing</p>
+            </div>
+          </div>
+
+          <div class="single-place">
+            <div class="single-place-img">
+              <img src="./images/place-2.jpg" alt="" />
+              <span class="display-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="single-place-info">
+              <p>Paris,France</p>
+              <p>4 Listing</p>
+            </div>
+          </div>
+
+          <div class="single-place">
+            <div class="single-place-img">
+              <img src="./images/place-3.jpg" alt="" />
+              <span class="display-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="single-place-info">
+              <p>San Francisco,USA</p>
+              <p>17 Listing</p>
+            </div>
+          </div>
+
+          <div class="single-place">
+            <div class="single-place-img">
+              <img src="./images/place-4.jpg" alt="" />
+              <span class="display-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="single-place-info">
+              <p>London, UK</p>
+              <p>4 Listing</p>
+            </div>
+          </div>
+
+          <div class="single-place">
+            <div class="single-place-img">
+              <img src="./images/place-5.jpg" alt="" />
+              <span class="display-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="single-place-info">
+              <p>Bangkok, Thailand</p>
+              <p>10 Listing</p>
+            </div>
+          </div>
+
+          <div class="single-place">
+            <div class="single-place-img">
+              <img src="./images/place-6.jpg" alt="" />
+              <span class="display-icon"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="single-place-info">
+              <p>Rome, Italy</p>
+              <p>12 Listing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--tour-->
+
+    <section class="tour py-4" id="tour">
+      <div class="container">
+        <span class="title">Tour</span>
+        <h2 class="subtext"><span>Top</span> Our Packet</h2>
+        <div class="tour-wrapper">
+          <div class="card">
+            <img src="./images/place-7.jpg" alt="" />
+            <div class="card-body">
+              <div class="tour-place">
+                <h2 class="normal-text">Paris, France</h2>
+                <h2 class="tour-price">$500</h2>
+              </div>
+              <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>8
+              </div>
+              <h5 class="rating-text">Rating</h5>
+              <p class="normal-para">
+                Ensure a memorable night out in Paris with a gourmet dinner
+                cruise along the Seine River. Float past the city's famed
+                monuments, such as the Eiffel Tower, Louvre
+              </p>
+              <p class="normal-para">2days 2 nights</p>
+              <hr />
+            </div>
+            <div class="card-footer">
+              <span class="normal-para"
+                ><i class="fas fa-map"></i>Paris, France</span
+              >
+              <button class="btn-green">Discover</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/place-8.jpg" alt="" />
+            <div class="card-body">
+              <div class="tour-place">
+                <h2 class="normal-text">Berline,Germany</h2>
+                <h2 class="tour-price">$500</h2>
+              </div>
+              <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>8
+              </div>
+              <h5 class="rating-text">Rating</h5>
+              <p class="normal-para">
+                Ensure a memorable night out in Paris with a gourmet dinner
+                cruise along the Seine River. Float past the city's famed
+                monuments, such as the Eiffel Tower, Louvre
+              </p>
+              <p class="normal-para">2days 2 nights</p>
+              <hr />
+            </div>
+            <div class="card-footer">
+              <span class="normal-para"
+                ><i class="fas fa-map"></i>Roma, Italy</span
+              >
+              <button class="btn-green">Discover</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/place-9.jpg" alt="" />
+            <div class="card-body">
+              <div class="tour-place">
+                <h2 class="normal-text">Roma,Italy</h2>
+                <h2 class="tour-price">$500</h2>
+              </div>
+              <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>8
+              </div>
+              <h5 class="rating-text">Rating</h5>
+              <p class="normal-para">
+                Ensure a memorable night out in Paris with a gourmet dinner
+                cruise along the Seine River. Float past the city's famed
+                monuments, such as the Eiffel Tower, Louvre
+              </p>
+              <p class="normal-para">2days 2 nights</p>
+              <hr />
+            </div>
+            <div class="card-footer">
+              <span class="normal-para"
+                ><i class="fas fa-map"></i>Paris, France</span
+              >
+              <button class="btn-green">Discover</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/place-10.jpg" alt="" />
+            <div class="card-body">
+              <div class="tour-place">
+                <h2 class="normal-text">Paris, France</h2>
+                <h2 class="tour-price">$500</h2>
+              </div>
+              <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="far fa-star"></i></span>8
+              </div>
+              <h5 class="rating-text">Rating</h5>
+              <p class="normal-para">
+                Ensure a memorable night out in Paris with a gourmet dinner
+                cruise along the Seine River. Float past the city's famed
+                monuments, such as the Eiffel Tower, Louvre
+              </p>
+              <p class="normal-para">2days 2 nights</p>
+              <hr />
+            </div>
+            <div class="card-footer">
+              <span class="normal-para"
+                ><i class="fas fa-map"></i>Paris, France</span
+              >
+              <button class="btn-green">Discover</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/place-11.jpg" alt="" />
+            <div class="card-body">
+              <div class="tour-place">
+                <h2 class="normal-text">Leshan, China</h2>
+                <h2 class="tour-price">$500</h2>
+              </div>
+              <div class="rating">
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>8
+              </div>
+              <h5 class="rating-text">Rating</h5>
+              <p class="normal-para">
+                Ensure a memorable night out in Paris with a gourmet dinner
+                cruise along the Seine River. Float past the city's famed
+                monuments, such as the Eiffel Tower, Louvre
+              </p>
+              <p class="normal-para">2days 2 nights</p>
+              <hr />
+            </div>
+            <div class="card-footer">
+              <span class="normal-para"
+                ><i class="fas fa-map"></i>Leshan, China</span
+              >
+              <button class="btn-green">Discover</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rooms py-4" id="rooms">
+      <span class="title"> Hotel </span>
+      <h2 class="subtext"><span>Popular</span> Hotels</h2>
+      <div class="rooms-wrapper">
+        <article class="room">
+          <div class="room-image">
+            <img src="images/room1.jpeg" alt="" />
+          </div>
+          <div class="room-content">
+            <h3>2 Queen Leisure</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>Breakfast included
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>No Refundable
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> No deposit
+                Required
+              </li>
+            </ul>
+            <p>
+              Refunded in the form of points. The number of points refunded will
+              be determined by the price, in points, at the original time of
+              booking.
+            </p>
+            <p>
+              Points + Cash bookings are charged immediately in USD, and
+              cancellations are refunded in points only.
+            </p>
+            <p class="rate"><span>$150.00/</span>Per Night</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </article>
+
+        <article class="room">
+          <div class="room-image">
+            <img src="/images/room2.jpg" alt="" />
+          </div>
+          <div class="room-content">
+            <h3>2 Queen Leisure</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>Breakfast included
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>No Refundable
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> No deposit
+                Required
+              </li>
+            </ul>
+            <p>
+              Refunded in the form of points. The number of points refunded will
+              be determined by the price, in points, at the original time of
+              booking.
+            </p>
+            <p>
+              Points + Cash bookings are charged immediately in USD, and
+              cancellations are refunded in points only.
+            </p>
+            <p class="rate"><span>$150.00/</span>Per Night</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </article>
+
+        <article class="room">
+          <div class="room-image">
+            <img src="/images/room3.jpeg" alt="" />
+          </div>
+          <div class="room-content">
+            <h3>2 Queen Leisure</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>Breakfast included
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>No Refundable
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> No deposit
+                Required
+              </li>
+            </ul>
+            <p>
+              Refunded in the form of points. The number of points refunded will
+              be determined by the price, in points, at the original time of
+              booking.
+            </p>
+            <p>
+              Points + Cash bookings are charged immediately in USD, and
+              cancellations are refunded in points only.
+            </p>
+            <p class="rate"><span>$150.00/</span>Per Night</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </article>
+
+        <article class="room">
+          <div class="room-image">
+            <img src="/images/room4.jpg" alt="" />
+          </div>
+          <div class="room-content">
+            <h3>2 Queen Leisure</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>Breakfast included
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>No Refundable
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> No deposit
+                Required
+              </li>
+            </ul>
+            <p>
+              Refunded in the form of points. The number of points refunded will
+              be determined by the price, in points, at the original time of
+              booking.
+            </p>
+            <p>
+              Points + Cash bookings are charged immediately in USD, and
+              cancellations are refunded in points only.
+            </p>
+            <p class="rate"><span>$150.00/</span>Per Night</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </article>
+
+        <article class="room">
+          <div class="room-image">
+            <img src="/images/room5.jpg" alt="" />
+          </div>
+          <div class="room-content">
+            <h3>2 Queen Leisure</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>Breakfast included
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>No Refundable
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> No deposit
+                Required
+              </li>
+            </ul>
+            <p>
+              Refunded in the form of points. The number of points refunded will
+              be determined by the price, in points, at the original time of
+              booking.
+            </p>
+            <p>
+              Points + Cash bookings are charged immediately in USD, and
+              cancellations are refunded in points only.
+            </p>
+            <p class="rate"><span>$150.00/</span>Per Night</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </article>
+        <article class="room">
+          <div class="room-image">
+            <img src="/images/room6.jpg" alt="" />
+          </div>
+          <div class="room-content">
+            <h3>2 Queen Leisure</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>Breakfast included
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>No Refundable
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i> No deposit
+                Required
+              </li>
+            </ul>
+            <p>
+              Refunded in the form of points. The number of points refunded will
+              be determined by the price, in points, at the original time of
+              booking.
+            </p>
+            <p>
+              Points + Cash bookings are charged immediately in USD, and
+              cancellations are refunded in points only.
+            </p>
+            <p class="rate"><span>$150.00/</span>Per Night</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="facts py-4">
+      <div class="container">
+        <span class="title">Some fun fact</span>
+        <p class="normal-para">More than 6000 websites hosted</p>
+        <div class="fact-wrapper">
+          <div class="single-data">
+            <span
+              class="numscroller"
+              data-min="1"
+              data-max="6000"
+              data-delay="20"
+              data-increment="5"
+              >0</span
+            ><span class="numberscroller-text">Happy Customers</span>
+          </div>
+
+          <div class="single-data">
+            <span
+              class="numscroller"
+              data-min="1"
+              data-max="9600"
+              data-delay="20"
+              data-increment="5"
+              >0</span
+            ><span class="numberscroller-text">Destination</span>
+          </div>
+
+          <div class="single-data">
+            <span
+              class="numscroller"
+              data-min="1"
+              data-max="12000"
+              data-delay="20"
+              data-increment="5"
+              >0</span
+            ><span class="numberscroller-text">Hotels</span>
+          </div>
+
+          <div class="single-data">
+            <span
+              class="numscroller"
+              data-min="1"
+              data-max="9700"
+              data-delay="20"
+              data-increment="5"
+              >0</span
+            ><span class="numberscroller-text">Restaurants</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---blog-->
+
+    <!--booking form-->
+    <div class="book py-4">
+      <form class="book-form">
+        <div class="form-item">
+          <label for="Check in ">Check In Date:</label>
+          <input type="date" id="checkin" />
+        </div>
+
+        <div class="form-item">
+          <label for="Check out ">Check Out Date:</label>
+          <input type="date" id="checkout" />
+        </div>
+
+        <div class="form-item">
+          <label for="adults ">Adults:</label>
+          <input type="number" min="1" id="adults" />
+        </div>
+
+        <div class="form-item">
+          <label for="children">Children:</label>
+          <input type="number" id="children" />
+        </div>
+
+        <div class="form-item">
+          <label for="room">Rooms</label>
+          <input type="number" id="room" min="1" />
+        </div>
+
+        <div class="form-item">
+          <input type="submit" class="submit-btn" value="Book Now" />
+        </div>
+      </form>
+    </div>
+
+    <section class="blog py-4" id="blog">
+      <div class="container">
+        <span class="title">Blog</span>
+        <h2 class="subtext"><span>Tips</span> & Article</h2>
+        <div class="blog-wrapper">
+          <div class="card">
+            <img src="./images/blog-img-1.jpg" alt="" />
+            <div class="card-body">
+              <p class="normal-text">Tips, Travel</p>
+              <a href="" class="normal-title blog-link">Here is some tips</a>
+              <p class="normal-text">July 1,2021 Guest Author</p>
+              <span class="normal-text"
+                ><i class="fas fa-comment-alt"></i>5</span
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/blog-img-2.jpg" alt="" />
+            <div class="card-body">
+              <p class="normal-text">Tips, Travel</p>
+              <a href="" class="normal-title blog-link">Here is some tips</a>
+              <p class="normal-text">July 1,2021 Guest Author</p>
+              <span class="normal-text"
+                ><i class="fas fa-comment-alt"></i>5</span
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/blog-img-3.jpg" alt="" />
+            <div class="card-body">
+              <p class="normal-text">Tips, Travel</p>
+              <a href="" class="normal-title blog-link">Here is some tips</a>
+              <p class="normal-text">July 1,2021 Guest Author</p>
+              <span class="normal-text"
+                ><i class="fas fa-comment-alt"></i>5</span
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/blog-img-4.jpg" alt="" />
+            <div class="card-body">
+              <p class="normal-text">Tips, Travel</p>
+              <a href="" class="normal-title blog-link">Here is some tips</a>
+              <p class="normal-text">July 1,2021 Guest Author</p>
+              <span class="normal-text"
+                ><i class="fas fa-comment-alt"></i>5</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter py-4">
+      <div class="container">
+        <div class="newsletter-wrapper">
+          <h2>Subscribe to our newsletter</h2>
+          <p class="normal-para">You will recieve coupon and other update.</p>
+          <form class="subscribe-form">
+            <div class="form-element">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-element">
+              <input type="submit" class="form-control" value="Subscribe" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--testimonial-->
+    <section class="testimonial py-4">
+      <div class="container">
+        <div class="testimonial-wrapper">
+          <span class="title">Our Guest</span>
+          <h2 class="subtext"><span>Our </span> Guest Say?</h2>
+          <div class="test-slider">
+            <div class="test-single">
+              <div class="test-img">
+                <img src="./images/person-1.jpg" alt="" />
+                <span class="quote-icon"
+                  ><i class="fas fa-quote-left"></i
+                ></span>
+              </div>
+              <div class="test-content">
+                <p class="normal-para">
+                  Prices are excellent, I have stayed with my friend for a
+                  weekend and honestly I am so happy we found this place.
+                </p>
+                <div class="about-guest">
+                  <p>John Doe</p>
+                  <p>Guest from America</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-single">
+              <div class="test-img">
+                <img src="./images/person-2.jpg" alt="" />
+                <span class="quote-icon"
+                  ><i class="fas fa-quote-left"></i
+                ></span>
+              </div>
+              <div class="text-content">
+                <p class="normal-para">
+                  Prices are excellent, I have stayed with my friend for a
+                  weekend and honestly I am so happy we found this place.
+                </p>
+                <div class="about-guest">
+                  <p>John Doe</p>
+                  <p>Guest from America</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-single">
+              <div class="test-img">
+                <img src="./images/person-3.jpg" alt="" />
+                <span class="quote-icon"
+                  ><i class="fas fa-quote-left"></i
+                ></span>
+              </div>
+              <div class="text-content">
+                <p class="normal-para">
+                  Prices are excellent, I have stayed with my friend for a
+                  weekend and honestly I am so happy we found this place.
+                </p>
+                <div class="about-guest">
+                  <p>John Doe</p>
+                  <p>Guest from America</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer py-4" id="contact">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-div footer-div-1">
+            <div class="normal-text">HOTEL</div>
+            <p class="para-text">
+              Whether you’re looking for a romantic getaway, resort vacation,
+              family adventure or a historic immersion, our Hotels & Resorts has
+              a variety of unique offers throughout the year.
+            </p>
+            <div class="social-icons">
+              <a href=""
+                ><span><i class="fab fa-twitter"></i></span
+              ></a>
+              <a href=""
+                ><span><i class="fab fa-facebook"></i></span
+              ></a>
+              <a href=""
+                ><span><i class="fab fa-instagram"></i></span
+              ></a>
+            </div>
+          </div>
+          <div class="footer-div footer-div-2">
+            <div class="normal-title">Information</div>
+            <ul class="footer-links">
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Term and Condition</a></li>
+              <li><a href="">Become a partner</a></li>
+              <li><a href="">Best price guarantee</a></li>
+              <li><a href="">Privacy and Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-div footer-div-2">
+            <div class="normal-title">Customer Support</div>
+            <ul class="footer-links">
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Payment Option</a></li>
+              <li><a href="">Booking Tips</a></li>
+              <li><a href="">How it works </a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-div footer-div-4">
+            <h2 class="normal-title">Have a question?</h2>
+            <ul class="footer-links">
+              <li class="contact-single">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <span>7312 Gulf View, Tampa,FL</span>
+              </li>
+              <li class="contact-single">
+                <span><i class="fas fa-phone"></i></span>
+                <span>+13522518001</span>
+              </li>
+              <li class="contact-single">
+                <span><i class="fas fa-envelope"></i></span>
+                <span>hotel@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright-text">
+          <p>Copyright &copy; 2021 All rights reserved | Hotel</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- numscroller -->
+    <script src="/numscroller-gh-pages/numscroller-1.0.js"></script>
+    <!-- Slick JS file -->
+    <script src="/slick-1.8.1/slick/slick.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
